@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class LSPTestServiceWithoutPrinciple {
 
-    @PostConstruct
+//    @PostConstruct
     public void init() {
         Vehicle bike = new Bike();
         bike.setNumberOfWheels(2);
