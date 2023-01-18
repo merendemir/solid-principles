@@ -14,7 +14,7 @@ public class ISPTestServiceWithoutPrinciple {
     private final ISPAreaCalculatorWithoutPrinciple ispAreaCalculatorWithoutPrinciple;
     private final ISPVolumeCalculatorWithoutPrinciple ispVolumeCalculatorWithoutPrinciple;
 
-    @PostConstruct
+//    @PostConstruct
     public void init(){
         Cube cube = new Cube(10.0);
         System.out.println(ispAreaCalculatorWithoutPrinciple.getTotalAreaByShapeList(List.of(cube)));

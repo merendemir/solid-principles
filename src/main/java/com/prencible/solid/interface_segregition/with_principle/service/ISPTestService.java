@@ -15,7 +15,7 @@ public class ISPTestService {
     private final ISPAreaCalculator ispAreaCalculator;
     private final ISPVolumeCalculator ispVolumeCalculator;
 
-    @PostConstruct
+//    @PostConstruct
     public void init(){
         Cube cube = new Cube(10.0);
         System.out.println(ispAreaCalculator.getTotalAreaByShapeList(List.of(cube)));
