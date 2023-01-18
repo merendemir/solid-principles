@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class AreaCalculatorWithoutPrinciple {
+public class OCPAreaCalculatorWithoutPrinciple {
 
     public Double getTotalAreaByShapeList(List<Object> objectList) {
         double sum = 0.0;

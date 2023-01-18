@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class AreaCalculator {
+public class OCPAreaCalculator {
 
     public Double getTotalAreaByShapeList(List<IShape> iShapeList) {
         return iShapeList.stream()

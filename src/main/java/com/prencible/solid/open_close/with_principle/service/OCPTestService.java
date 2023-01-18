@@ -11,9 +11,9 @@ import java.util.List;
 
 @Service
 @RequiredArgsConstructor
-public class OpenCloseTestService {
+public class OCPTestService {
 
-    private final AreaCalculator areaCalculator;
+    private final OCPAreaCalculator OCPAreaCalculator;
 
 //    @PostConstruct
     public void init(){
@@ -23,6 +23,6 @@ public class OpenCloseTestService {
 
         List<IShape> shapeList = List.of(square, circle, triangle);
 
-        System.out.println(areaCalculator.getTotalAreaByShapeList(shapeList));
+        System.out.println(OCPAreaCalculator.getTotalAreaByShapeList(shapeList));
     }
 }

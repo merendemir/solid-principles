@@ -10,9 +10,9 @@ import java.util.List;
 
 @Service
 @RequiredArgsConstructor
-public class OpenCloseTestWithoutPrincipleService {
+public class OCPWithoutPrincipleService {
 
-    private final AreaCalculatorWithoutPrinciple areaCalculatorWithoutPrinciple;
+    private final OCPAreaCalculatorWithoutPrinciple OCPAreaCalculatorWithoutPrinciple;
 
 //    @PostConstruct
     public void init(){
@@ -22,6 +22,6 @@ public class OpenCloseTestWithoutPrincipleService {
 
         List<Object> objectList = List.of(square, circle, triangle);
 
-        System.out.println(areaCalculatorWithoutPrinciple.getTotalAreaByShapeList(objectList));
+        System.out.println(OCPAreaCalculatorWithoutPrinciple.getTotalAreaByShapeList(objectList));
     }
 }
