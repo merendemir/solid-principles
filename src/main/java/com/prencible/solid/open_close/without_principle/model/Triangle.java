@@ -1,4 +1,4 @@
-package com.prencible.solid.open.close.with.principle.model;
+package com.prencible.solid.open_close.without_principle.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,14 +9,10 @@ import lombok.Setter;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Triangle implements IShape{
+public class Triangle {
 
     private Double height;
 
     private Double length;
 
-    @Override
-    public Double area() {
-        return (this.getLength() * this.getHeight()) / 2;
-    }
 }

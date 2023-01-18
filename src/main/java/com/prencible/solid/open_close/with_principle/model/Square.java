@@ -1,4 +1,4 @@
-package com.prencible.solid.open.close.with.principle.model;
+package com.prencible.solid.open_close.with_principle.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,12 +9,12 @@ import lombok.Setter;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Circle implements IShape{
+public class Square implements IShape{
 
-    private Double radius;
+    private Double length;
 
     @Override
     public Double area() {
-        return Math.PI * Math.pow(this.getRadius(), 2);
+        return Math.pow(this.getLength(), 2) ;
     }
 }

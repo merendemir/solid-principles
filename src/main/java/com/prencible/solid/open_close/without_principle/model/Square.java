@@ -1,4 +1,4 @@
-package com.prencible.solid.open.close.without.principle.model;
+package com.prencible.solid.open_close.without_principle.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,10 +9,7 @@ import lombok.Setter;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Triangle {
-
-    private Double height;
+public class Square {
 
     private Double length;
-
 }

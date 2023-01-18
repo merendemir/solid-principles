@@ -1,8 +1,8 @@
-package com.prencible.solid.open.close.without.principle.service;
+package com.prencible.solid.open_close.without_principle.service;
 
-import com.prencible.solid.open.close.without.principle.model.Circle;
-import com.prencible.solid.open.close.without.principle.model.Square;
-import com.prencible.solid.open.close.without.principle.model.Triangle;
+import com.prencible.solid.open_close.without_principle.model.Circle;
+import com.prencible.solid.open_close.without_principle.model.Square;
+import com.prencible.solid.open_close.without_principle.model.Triangle;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

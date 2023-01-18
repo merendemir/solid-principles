@@ -1,6 +1,6 @@
-package com.prencible.solid.open.close.with.principle.service;
+package com.prencible.solid.open_close.with_principle.service;
 
-import com.prencible.solid.open.close.with.principle.model.IShape;
+import com.prencible.solid.open_close.with_principle.model.IShape;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
