@@ -1,7 +1,6 @@
 package com.prencible.solid.interface_segregition.without_principle.service;
 
 import com.prencible.solid.interface_segregition.without_principle.model.Cube;
-import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

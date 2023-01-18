@@ -20,7 +20,7 @@ public class LSPTestServiceWithoutPrinciple {
 
         /**
          * engine info will be null for bike
-         * because bike has no engine
+         * because bike has no engine,
          * so we shouldn't extend bike from vehicle
          */
     public void printVehicleWithEngineDetails(Vehicle vehicle) {

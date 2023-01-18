@@ -4,15 +4,8 @@ import com.prencible.solid.liskov_substitution.with_principle.model.Bike;
 import com.prencible.solid.liskov_substitution.with_principle.model.Car;
 import com.prencible.solid.liskov_substitution.with_principle.model.Vehicle;
 import com.prencible.solid.liskov_substitution.with_principle.model.VehicleWithEngine;
-import com.prencible.solid.open_close.with_principle.model.Circle;
-import com.prencible.solid.open_close.with_principle.model.IShape;
-import com.prencible.solid.open_close.with_principle.model.Square;
-import com.prencible.solid.open_close.with_principle.model.Triangle;
-import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 @Service
 @RequiredArgsConstructor
